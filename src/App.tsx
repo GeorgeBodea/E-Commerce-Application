@@ -1,9 +1,12 @@
-import { index as NavIndex } from "./components/Nav/index";
+import React from "react"
+import './App.css'
 
 function App() {
   return (
-   <NavIndex />
-  );
+      <div className="container">
+        Hello
+      </div>
+  )
 }
 
 export default App;
