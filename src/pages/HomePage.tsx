@@ -3,9 +3,10 @@ import {
 } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { StructurePage } from '../components/StructurePage'
+import { Layout } from '../components/Layout'
 
 export default function Homepage() {
   return (
+    <Layout/>
   )
 }

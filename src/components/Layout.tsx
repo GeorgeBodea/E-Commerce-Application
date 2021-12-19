@@ -1,7 +1,8 @@
 import React from 'react'
 import { Container } from '@chakra-ui/react'
+import { Navbar } from "./NavBar"
 
-export function Layout(props) {
+export function Layout() {
   return (
     <>
       <Navbar />
